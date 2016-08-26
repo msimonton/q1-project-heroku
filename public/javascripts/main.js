@@ -1,6 +1,5 @@
 $(document).ready(()=> {
     var findLyrics =""
-  var corsAnywhere="https://cors-anywhere.herokuapp.com/"
   var urlSearch="http://api.genius.com/search?q="
 
 
@@ -39,7 +38,7 @@ $(document).ready(()=> {
   $('#quoteWordButton').submit(function()  {
     event.preventDefault();
     $.ajax({
-      url:corsAnywhere+"http://api.forismatic.com/api/1.0/",
+      url:"http://api.forismatic.com/api/1.0/",
       format:'json',
       method:"GET",
       error:function(errs)  {
@@ -61,7 +60,7 @@ $(document).ready(()=> {
 
 
     $.ajax({
-      url:corsAnywhere+urlSearch+searchItems,
+      url:urlSearch+searchItems,
       error:function(err) {
         console.log(err)
       },
