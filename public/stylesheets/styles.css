@@ -1,0 +1,219 @@
+body {
+  background-color: #6E6E6E;
+  align-items: center;
+  color: black;
+}
+#mainContainer  {
+}
+.jumbotron {
+  background-image: url(../images/stagepas_wallpaper1600x900_C3.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 1700px;
+  margin:auto;
+  text-align: center;
+  background-color: #393939;
+}
+.jumbotron h1  {
+  color:#dbdbdb;
+}
+.titles {
+  color:#dbdbdb;
+}
+.jumbotron p, h2  {
+  color:#dbdbdb;
+}
+h2{
+  font-size: 25px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.titles {
+  margin: auto;
+}
+#lyricInstructions  {
+  font-size: 20px;
+  margin-top:15px;
+}
+.artistNames{
+  color:#dbdbdb;
+}
+
+#lyricButton, #quoteButton, #anyTextButton, #changeInput  {
+  background-color: #FF5A0A;
+  border: 1px solid grey;
+  border-radius: 4px;
+  color: black;
+  font-size: 20px;
+  box-shadow: 4px 4px 7px #5F5F5F;
+}
+
+#main_search  {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 14px;
+  color: black;
+  background-color: #F3843D;
+  border-radius: 3px;
+  color: black;
+}
+#searchButton {
+    background-color:  #FF5A0A;
+    box-shadow: 3px 3px 5px #5F5F5F;
+    border-radius: 4px;
+}
+
+
+#search {
+  display: none;
+  margin: auto;
+  text-align: center;
+}
+
+#input_texts, #input_text {
+  color: black;
+  margin: auto;
+  width: 70%;
+  background-color: #D4D4D4;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  box-shadow: 4px 4px 7px #5F5F5F;
+  margin-top: 25px
+
+}
+
+#quoteGenerator {
+  display:none;
+}
+
+#search_return  {
+    margin: auto;
+    margin-top:20px;
+  text-align: center;
+}
+
+a{
+  padding: 5px 5px 5px 5px;
+}
+.divResults {
+  margin: auto;
+  padding:10px 10px 10px 10px;
+  width: 33%;
+  display: inline-block;
+}
+
+#1{
+  width: 20%
+}
+.resultDivs {
+  margin: auto;
+  margin-top: 20px;
+  background-color: #888989;
+  padding:3px 14px 3px 14px;
+  width: 10%;
+
+}
+.resultDivs:hover{
+  background-color:#EFF0F1;
+}
+.songNames  {
+  padding-top: 0px;
+  margin-top: 0em;
+  margin-bottom: .6em;
+  display: block;
+  font-size: 24px;
+}
+
+.artistNames{
+  font-size: 18;
+}
+
+.hidden_url {
+  display:none;
+}
+
+.artistPics {
+  max-width: 100%;
+  display: block;
+  margin-top: 14px;
+  margin: auto;
+
+
+}
+
+#changeInput  {
+  display: block;
+  margin-bottom: 15px;
+  margin: auto;
+
+}
+textarea  {
+  width: 40%;
+  height: auto;
+  box-shadow: 4px 4px 7px #5F5F5F;
+}
+#userInputs {
+  background-color: #F3843D;
+  border-radius: 6px;
+  color: black;
+}
+#hiddenInput {
+  display:none;
+  margin: auto;
+  text-align: center;
+}
+#inputWords  {
+  display: none;
+}
+#userWords  {
+  display: none;
+  margin: auto;
+  align-content: center;
+}
+#noun {
+  display:inline-block;
+}
+.nounInputs {
+  display: block;
+}
+#verb {
+  display: inline-block;
+  margin: auto;
+}
+.verbInputs {
+  display: block;
+}
+#adj  {
+  display: inline-block;
+}
+.adjInputs  {
+  display: block;
+}
+#finalResults {
+  margin:auto;
+  width:80%;
+  background-color: #D4D4D4;
+  border-radius: 4px;
+  box-shadow: 4px 4px 7px #5F5F5F;
+  margin-bottom:30px;
+
+}
+#tagged_text  {
+  margin:auto;
+  width: 90%
+}
+
+#resultTitle  {
+    display: none;
+    margin: auto;
+
+}
+
+h3  {
+  margin: auto;
+}
+#inputWords{
+  margin: auto;
+}
+/* types of words, frequency slider*\
